@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="#" name="myForm" method="post" id="myForm">
+    <div>
+        <label for="name">Введите имя*: </label>
+        <input type="text" name="name" id="name" required>
+        <label id="nameErr" class="lableErr"></label>
+    </div>
+    <div>
+        <label for="myEmail">Ваш Email*: </label>
+        <input type="email" name="myEmail" id="myEmail" required>
+        <label id="myEmailErr" class="lableErr"></label>
+    </div>
+    <div>
+        <label id="myCheckErr">Подтвердите что вы человек*:</label>
+        <input type="checkbox" name="" id="myCheckbox">
+    </div>
+    <div>
+        <input type="button" value="Отправить" id="myButton">
+    </div>
+</form>
+<script src="main.js"></script>
+</body>
+</html>
